@@ -1,0 +1,423 @@
+{
+  "rolls": [
+    {
+      "name": "M & M",
+      "isSpicy": true,
+      "isTempura": false,
+      "mainFish": "spicy tuna",
+      "ingredients": ["spicy tuna", "fluke", "avocado", "special sauce"],
+      "toppings": ["spicy tuna"],
+      "description": "M & M shape on top"
+    },
+    {
+      "name": "House Special",
+      "isSpicy": true,
+      "isTempura": true,
+      "mainFish": "salmon",
+      "ingredients": [
+        "salmon tempura",
+        "asparagus",
+        "colorful tobiko",
+        "spicy mayo"
+      ],
+      "toppings": ["salmon", "colorful tobiko", "spicy mayo"],
+      "description": "colorful tobiko and salmon tempura"
+    },
+    {
+      "name": "Rainbow Caviar",
+      "isSpicy": true,
+      "isTempura": false,
+      "mainFish": "spicy salmon",
+      "ingredients": ["spicy salmon", "colorful tobiko", "tempura flakes"],
+      "toppings": ["colorful tobiko"],
+      "description": "colorful tobiko and tempura flakes"
+    },
+    {
+      "name": "Mystic",
+      "isSpicy": false,
+      "isTempura": true,
+      "mainFish": "shrimp tempura",
+      "ingredients": ["shrimp tempura", "cucumber", "avocado", "eel"],
+      "toppings": [""],
+      "description": ""
+    },
+    {
+      "name": "Dinosaur",
+      "isSpicy": false,
+      "isTempura": true,
+      "mainFish": "soft shell crab tempura",
+      "ingredients": ["soft shell crab tempura", "eel", "avocado", "eel sauce"],
+      "toppings": ["eel", "avocado", "eel sauce"],
+      "description": ""
+    },
+    {
+      "name": "Crazy Tuna",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "pepper tuna",
+      "ingredients": [
+        "pepper tuna",
+        "spicy tuna",
+        "avocado",
+        "tempura flakes",
+        "red chili sauce"
+      ],
+      "toppings": ["spicy tuna", "tempura flakes", "red chili sauce"],
+      "description": ""
+    },
+    {
+      "name": "Black Dragon",
+      "isSpicy": false,
+      "isTempura": true,
+      "mainFish": "shrimp tempura",
+      "ingredients": ["shrimp tempura", "eel", "avocado", "eel sauce"],
+      "toppings": ["eel", "avocado", "eel sauce"],
+      "description": "avocado layered with black"
+    },
+    {
+      "name": "Lobster Dragon",
+      "isSpicy": false,
+      "isTempura": true,
+      "mainFish": "lobster tail tempura",
+      "ingredients": ["lobster tail tempura", "tobiko", "avocado", "eel sauce"],
+      "toppings": ["tobiko", "avocado", "eel sauce"],
+      "description": ""
+    },
+    {
+      "name": "Fantastic",
+      "isSpicy": true,
+      "isTempura": true,
+      "mainFish": "lobster tail tempura",
+      "ingredients": ["lobster tail tempura"],
+      "toppings": ["spicy crab"],
+      "description": ""
+    },
+    {
+      "name": "Ichiban",
+      "isSpicy": true,
+      "isTempura": true,
+      "mainFish": "spicy tuna",
+      "ingredients": ["spicy tuna", "tempura flakes"],
+      "toppings": [],
+      "description": ""
+    },
+    {
+      "name": "Piper",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "spicy surf clam",
+      "ingredients": [
+        "spicy surf clam, spicy crab",
+        "scallion",
+        "tobiko",
+        "eel",
+        "avocado",
+        "eel sauce"
+      ],
+      "toppings": ["eel", "avocado", "eel sauce"],
+      "description": ""
+    },
+    {
+      "name": "Kevin",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "shrimp tempura",
+      "ingredients": ["shrimp tempura", "tuna", "avocado"],
+      "toppings": ["tuna", "avocado"],
+      "description": ""
+    },
+    {
+      "name": "Sweetheart",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "spicy tuna",
+      "ingredients": ["spicy tuna", "tempura flakes", "tobiko", "tuna"],
+      "toppings": [],
+      "description": ""
+    },
+    {
+      "name": "Kim",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "shrimp tempura",
+      "ingredients": [
+        "shrimp tempura",
+        "spicy crab",
+        "avocado",
+        "spicy tuna",
+        "tempura flakes",
+        "special sauce"
+      ],
+      "toppings": ["avocado", "spicy tuna", "tempura flakes", "special sauce"],
+      "description": ""
+    },
+    {
+      "name": "Sheryl",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "salmon",
+      "ingredients": [
+        "salmon",
+        "cucumber",
+        "eel",
+        "tuna",
+        "tobiko",
+        "spicy mayo",
+        "eel sauce"
+      ],
+      "toppings": ["eel", "tuna", "tobiko", "spicy mayo", "eel sauce"],
+      "description": ""
+    },
+    {
+      "name": "Angel",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "spicy yellowtail",
+      "ingredients": [
+        "spicy yellowtail",
+        "scallion",
+        "fluke",
+        "tobiko",
+        "special sauce"
+      ],
+      "toppings": ["fluke", "tobiko"],
+      "description": ""
+    },
+    {
+      "name": "Tyler",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "shrimp tempura",
+      "ingredients": ["shrimp tempura", "eel", "spicy crab", "tobiko"],
+      "toppings": ["spicy crab", "tobiko"],
+      "description": ""
+    },
+    {
+      "name": "White Swan",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "spicy white tuna",
+      "ingredients": [
+        "spicy white tuna",
+        "tempura flakes",
+        "tobiko",
+        "scallion",
+        "yellowtail"
+      ],
+      "toppings": ["yellowtail"],
+      "description": ""
+    },
+    {
+      "name": "Black Pearl",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "spicy yellowtail",
+      "ingredients": [
+        "spicy yellowtail",
+        "tempura flakes",
+        "avocado",
+        "tobiko"
+      ],
+      "toppings": ["tobiko"],
+      "description": ""
+    },
+    {
+      "name": "Green River",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "spicy tuna",
+      "ingredients": [
+        "spicy tuna",
+        "crab",
+        "ponzu",
+        "tempura flakes",
+        "avocado",
+        "tobiko",
+        "red chili sauce",
+        "daikon radish"
+      ],
+      "toppings": [],
+      "description": ""
+    },
+    {
+      "name": "Dancing Scallop",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "spicy crab",
+      "ingredients": [
+        "spicy crab",
+        "scallop",
+        "spicy tuna",
+        "crab",
+        "wasabi caviar",
+        "special sauce"
+      ],
+      "toppings": ["wasabi caviar"],
+      "description": ""
+    },
+    {
+      "name": "King Crab",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "shrimp tempura",
+      "ingredients": [
+        "shrimp tempura",
+        "mango",
+        "spicy Alaska crab",
+        "red caviar",
+        "special sauce"
+      ],
+      "toppings": ["spicy Alaska crab", "red caviar", "special sauce"],
+      "description": ""
+    },
+    {
+      "name": "Chilean Seabass Special",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "lobster",
+      "ingredients": [
+        "lobster",
+        "spicy tuna",
+        "asparagus",
+        "chilean seabass",
+        "crab",
+        "miso wasabi sauce"
+      ],
+      "toppings": [],
+      "description": ""
+    },
+    {
+      "name": "Golden Dragon",
+      "isSpicy": true,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": ["crab", "cucumber", "avocado", "salmon"],
+      "toppings": ["salmon"],
+      "description": ""
+    },
+    {
+      "name": "Red Dragon",
+      "isSpicy": true,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": ["crab", "cucumber", "avocado", "tuna"],
+      "toppings": ["tuna"],
+      "description": ""
+    },
+    {
+      "name": "R & D",
+      "isSpicy": true,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": [
+        "asparagus",
+        "cream cheese",
+        "white fish",
+        "spicy Alaska crab",
+        "jumbo lump crab",
+        "wasabi caviar",
+        "scallion",
+        "homemade special sauce"
+      ],
+      "toppings": [],
+      "description": ""
+    },
+    {
+      "name": "Dancing Shrimp",
+      "isSpicy": true,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": ["spicy crab", "sweet shrimp", "avocado"],
+      "toppings": ["avocado"],
+      "description": ""
+    },
+    {
+      "name": "Happy",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": ["crab", "avocado", "cucumber", "eel"],
+      "toppings": ["eel", "avocado"],
+      "description": ""
+    },
+    {
+      "name": "Samoto",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": [
+        "squid",
+        "spicy crab",
+        "asparagus",
+        "lobster salad",
+        "special sauce"
+      ],
+      "toppings": ["lobster salad", "special sauce"],
+      "description": ""
+    },
+    {
+      "name": "Double Toro",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": [
+        "spicy toro",
+        "caviar",
+        "scallion",
+        "toro",
+        "black caviar",
+        "scallion"
+      ],
+      "toppings": ["toro", "black caviar", "scallion"],
+      "description": ""
+    },
+    {
+      "name": "Truffle Kobe",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": ["shiitake", "enoki", "wagyu"],
+      "toppings": ["shiitake", "enoki", "wagyu", "red wasabi caviar"],
+      "description": ""
+    },
+    {
+      "name": "Block Island",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": [
+        "spicy tuna",
+        "avocado",
+        "pepper tuna",
+        "scallion",
+        "black caviar"
+      ],
+      "toppings": ["pepper tuna", "scallion", "black caviar"],
+      "description": ""
+    },
+    {
+      "name": "Black Jack",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": [
+        "shrimp tempura",
+        "asparagus",
+        "avocado",
+        "spicy seafood",
+        "black caviar"
+      ],
+      "toppings": ["black caviar"],
+      "description": ""
+    },
+    {
+      "name": "Spicy Girl",
+      "isSpicy": false,
+      "isTempura": false,
+      "mainFish": "",
+      "ingredients": ["tuna", "yuzu sauce"],
+      "toppings": [],
+      "description": ""
+    }
+  ]
+}
