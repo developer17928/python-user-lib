@@ -138,7 +138,7 @@
     {
       "name": "Kim",
       "isSpicy": false,
-      "isTempura": false,
+      "isTempura": true,
       "mainFish": "shrimp tempura",
       "ingredients": [
         "shrimp tempura",
@@ -146,9 +146,10 @@
         "avocado",
         "spicy tuna",
         "tempura flakes",
-        "special sauce"
+        "special sauce",
+        "tobiko"
       ],
-      "toppings": ["avocado", "spicy tuna", "tempura flakes", "special sauce"],
+      "toppings": ["avocado", "spicy tuna", "tempura flakes", "special sauce", "tobiko"],
       "description": ""
     },
     {
@@ -186,7 +187,7 @@
     {
       "name": "Tyler",
       "isSpicy": false,
-      "isTempura": false,
+      "isTempura": true,
       "mainFish": "shrimp tempura",
       "ingredients": ["shrimp tempura", "eel", "spicy crab", "tobiko"],
       "toppings": ["spicy crab", "tobiko"],
@@ -258,7 +259,7 @@
     {
       "name": "King Crab",
       "isSpicy": false,
-      "isTempura": false,
+      "isTempura": true,
       "mainFish": "shrimp tempura",
       "ingredients": [
         "shrimp tempura",
@@ -398,7 +399,7 @@
     {
       "name": "Black Jack",
       "isSpicy": false,
-      "isTempura": false,
+      "isTempura": true,
       "mainFish": "",
       "ingredients": [
         "shrimp tempura",

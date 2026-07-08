@@ -8,6 +8,7 @@ import streamlit as st
 workspace_path = "./specialty-rolls.json"
 absolute_workspace_path = absolute_string = str(Path(workspace_path).expanduser())
 
+
 class SpecialtyRollsSchema(BaseModel):
     name: str
     isSpicy: bool
@@ -17,8 +18,10 @@ class SpecialtyRollsSchema(BaseModel):
     toppings: list[str] = []
     description: str
 
+
 class SpecialtyRollsResponse(BaseModel):
     rolls: list[SpecialtyRollsSchema]
+
 
 def get_speciality_rolls():
     with open(absolute_workspace_path) as file:
@@ -33,5 +36,5 @@ def get_speciality_rolls():
 
         # print(parsed_rolls.rolls[0].name)
         pretty_json = json.dumps(dict(mainFish), indent=4, sort_keys=True)
-        #print(pretty_json)
-        st.json(pretty_json, expanded=False, width="stretch")
+        # print(pretty_json)
+        st.json(pretty_json, expanded=True, width="stretch")
