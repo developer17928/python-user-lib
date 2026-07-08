@@ -178,10 +178,10 @@
         "spicy yellowtail",
         "scallion",
         "fluke",
-        "tobiko",
+        "avocado",
         "special sauce"
       ],
-      "toppings": ["fluke", "tobiko"],
+      "toppings": ["fluke"],
       "description": ""
     },
     {
@@ -363,11 +363,9 @@
       "mainFish": "",
       "ingredients": [
         "spicy toro",
-        "caviar",
         "scallion",
         "toro",
-        "black caviar",
-        "scallion"
+        "black caviar"
       ],
       "toppings": ["toro", "black caviar", "scallion"],
       "description": ""
