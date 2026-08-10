@@ -27,7 +27,6 @@ def get_speciality_rolls():
     with open(absolute_workspace_path) as file:
         loaded_data = json.load(file)
         parsed_rolls = SpecialtyRollsResponse.model_validate(loaded_data)
-
         mainFish = defaultdict(list)
 
         for roll in parsed_rolls.rolls:
@@ -37,4 +36,20 @@ def get_speciality_rolls():
         # print(parsed_rolls.rolls[0].name)
         pretty_json = json.dumps(dict(mainFish), indent=4, sort_keys=True)
         # print(pretty_json)
+        st.json(pretty_json, expanded=True, width="stretch")
+
+
+def display_ui():
+    with open(absolute_workspace_path) as file:
+        loaded_data = json.load(file)
+        parsed_rolls = SpecialtyRollsResponse.model_validate(loaded_data)
+
+        mainFish = defaultdict(list)
+        for roll in parsed_rolls.rolls:
+            mainFish[roll.name].append(roll.ingredients)
+
+        roll = st.selectbox("Select an item", list(mainFish))
+
+        ingredients = {"Ingredients": mainFish[roll]}
+        pretty_json = json.dumps(ingredients, indent=4, sort_keys=True)
         st.json(pretty_json, expanded=True, width="stretch")
