@@ -7,9 +7,10 @@ from peking_tokyo import get_speciality_rolls, display_ui
 # textColor="#FFFFFF"
 # font="monospace"
 
+
 def main():
     display_ui()
-    get_speciality_rolls()
+    # get_speciality_rolls()
 
 
 if __name__ == "__main__":

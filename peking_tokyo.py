@@ -45,11 +45,22 @@ def display_ui():
         parsed_rolls = SpecialtyRollsResponse.model_validate(loaded_data)
 
         mainFish = defaultdict(list)
+        ingredientsDict = defaultdict(list)
+
         for roll in parsed_rolls.rolls:
             mainFish[roll.name].append(roll.ingredients)
+            for ingredient in roll.ingredients:
+                ingredientsDict[ingredient].append(roll.name)
 
-        roll = st.selectbox("Select an item", list(mainFish))
+        # by specific item
+        roll = st.selectbox("Select a roll", list(mainFish))
 
         ingredients = {"Ingredients": mainFish[roll]}
         pretty_json = json.dumps(ingredients, indent=4, sort_keys=True)
+        st.json(pretty_json, expanded=True, width="stretch")
+
+        # by ingredient
+        ingredient = st.selectbox("Select an ingredient", list(ingredientsDict))
+        rolls = {"Rolls": ingredientsDict[ingredient]}
+        pretty_json = json.dumps(rolls, indent=4, sort_keys=True)
         st.json(pretty_json, expanded=True, width="stretch")
