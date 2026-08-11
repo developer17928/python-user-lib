@@ -48,7 +48,7 @@ def display_ui():
         ingredientsDict = defaultdict(list)
 
         for roll in parsed_rolls.rolls:
-            mainFish[roll.name].append(roll.ingredients)
+            mainFish[roll.name].extend(roll.ingredients)
             for ingredient in roll.ingredients:
                 ingredientsDict[ingredient].append(roll.name)
 
@@ -57,10 +57,10 @@ def display_ui():
 
         ingredients = {"Ingredients": mainFish[roll]}
         pretty_json = json.dumps(ingredients, indent=4, sort_keys=True)
-        st.json(pretty_json, expanded=True, width="stretch")
+        st.json(pretty_json, expanded=True)
 
         # by ingredient
         ingredient = st.selectbox("Select an ingredient", list(ingredientsDict))
         rolls = {"Rolls": ingredientsDict[ingredient]}
         pretty_json = json.dumps(rolls, indent=4, sort_keys=True)
-        st.json(pretty_json, expanded=True, width="stretch")
+        st.json(pretty_json, expanded=True)
