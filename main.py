@@ -1,4 +1,5 @@
-from peking_tokyo import get_speciality_rolls, display_ui
+from peking_tokyo import display_ui
+from streamlit_util import display
 
 # [theme]
 # primaryColor="#F39C12"
@@ -10,7 +11,7 @@ from peking_tokyo import get_speciality_rolls, display_ui
 
 def main():
     display_ui()
-    # get_speciality_rolls()
+    display()
 
 
 if __name__ == "__main__":
