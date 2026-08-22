@@ -1,0 +1,206 @@
+{
+  "mixed_drinks": {
+    "martini_glass": {
+      "glass": "Martini (cocktail) glass",
+      "glass_capacity_oz": 5,
+      "drinks": {
+        "cosmopolitan": {
+          "parts": {
+            "vodka": 4,
+            "triple_sec": 0.5,
+            "lime_juice": 0.25,
+            "cranberry_juice": 0.25
+          },
+          "oz": {
+            "vodka": 3.25,
+            "triple_sec": 0.5,
+            "lime_juice": 0.25,
+            "cranberry_juice": 0.25
+          },
+          "garnish": "lime wheel",
+          "method": "shaken",
+          "tools": [
+            "shaker",
+            "strainer",
+            "jigger"
+          ]
+        },
+        "espresso_martini": {
+          "parts": {
+            "vanilla_vodka": 1,
+            "espresso_vodka": 1,
+            "coffee_liqueur": 0.5,
+            "cream_liqueur": 0.5,
+            "espresso": 1
+          },
+          "oz": {
+            "vanilla_vodka": 1,
+            "espresso_vodka": 1,
+            "coffee_liqueur": 0.5,
+            "cream_liqueur": 0.5,
+            "espresso": 1
+          },
+          "garnish": "3 coffee beans",
+          "method": "shaken (hard, for foam)",
+          "tools": [
+            "shaker",
+            "strainer",
+            "jigger"
+          ]
+        },
+        "lychee_martini": {
+          "parts": {
+            "vodka": 3,
+            "lychee_liqueur": 2,
+            "lychee_juice": 1
+          },
+          "oz": {
+            "vodka": 2,
+            "lychee_liqueur": 1.25,
+            "lychee_juice": 0.75
+          },
+          "garnish": "2-3 lychee fruits on pick",
+          "method": "shaken",
+          "tools": [
+            "shaker",
+            "strainer",
+            "jigger"
+          ],
+          "notes": "Titos"
+        },
+        "sake_tini": {
+          "parts": {
+            "sake": 1,
+            "vodka": 4
+          },
+          "oz": {
+            "sake": 0.75,
+            "vodka": 3.25
+          },
+          "garnish": "cucumber ribbon",
+          "method": "shaken",
+          "tools": [
+            "shaker",
+            "strainer",
+            "jigger"
+          ],
+          "notes": "Skyy"
+        }
+      }
+    },
+    "nick_and_nora_glass": {
+      "glass": "Nick & Nora",
+      "glass_capacity_oz": 5.5,
+      "drinks": {
+
+      }
+    },
+    "coupe_glass": {
+      "glass": "Coupe",
+      "glass_capacity_oz": 6,
+      "drinks": {
+
+      }
+    },
+    "flute_glass": {
+      "glass": "Champagne flute",
+      "glass_capacity_oz": 6,
+      "drinks": {
+
+      }
+    },
+    "highball_glass": {
+      "glass": "Highball",
+      "glass_capacity_oz": 10,
+      "drinks": {
+
+      }
+    },
+    "collins_glass": {
+      "glass": "Collins",
+      "glass_capacity_oz": 12,
+      "drinks": {
+
+      }
+    },
+    "rocks_glass": {
+      "glass": "Old Fashioned / Rocks",
+      "glass_capacity_oz": 9,
+      "drinks": {}
+    },
+    "shot_glass": {
+      "glass": "Shot",
+      "glass_capacity_oz": 2,
+      "drinks": {
+
+      }
+    },
+    "hurricane_glass": {
+      "glass": "Hurricane",
+      "glass_capacity_oz": 20,
+      "drinks": {
+
+      }
+    },
+    "snifter_glass": {
+      "glass": "Brandy snifter",
+      "glass_capacity_oz": 8,
+      "drinks": {
+
+      }
+    },
+    "tiki_mug": {
+      "glass": "Tiki mug",
+      "glass_capacity_oz": 14,
+      "drinks": {
+
+      }
+    },
+    "punch_bowl_cup": {
+      "glass": "Punch cup / bowl",
+      "glass_capacity_oz": 6,
+      "drinks": {
+
+      }
+    },
+    "beer_glass": {
+      "glass": "Pint / pilsner glass",
+      "glass_capacity_oz": 16,
+      "drinks": {
+
+      }
+    }
+  },
+  "wine": {
+    "red_wine_glass": {
+      "glass": "Bordeaux / Burgundy glass",
+      "glass_capacity_oz": 22,
+      "drinks": {
+
+      }
+    },
+    "white_wine_glass": {
+      "glass": "White wine glass",
+      "glass_capacity_oz": 16,
+      "drinks": {
+
+      }
+    },
+    "flute_glass": {
+      "glass": "Champagne flute",
+      "glass_capacity_oz": 6,
+      "drinks": {
+
+      }
+    }
+  },
+  "sake": {
+    "sake_set": {
+      "glass": "Ochoko cup (cold or hot) / tokkuri flask for pouring; masu box or wine glass for premium ginjo",
+      "glass_capacity_oz": 2,
+      "drinks": {
+        
+      }
+    }
+  }
+}
