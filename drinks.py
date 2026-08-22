@@ -30,12 +30,14 @@ Category = str  # "mixed_drinks" | "wine" | "sake"
 
 # Adjust this if you place the JSON somewhere else, or set the
 # DRINKS_DATA_PATH environment variable to override at runtime.
-DEFAULT_DATA_PATH = Path(
-    os.environ.get(
-        "DRINKS_DATA_PATH",
-        Path(__file__).resolve().parent.parent / "api" / "drinks-pk.json",
-    )
-)
+workspace_path = "../../api/drinks-pk.json"
+DEFAULT_DATA_PATH = absolute_workspace_path = absolute_string = str(Path(workspace_path).expanduser())
+# DEFAULT_DATA_PATH = Path(
+#     os.environ.get(
+#         "DRINKS_DATA_PATH",
+#         Path(__file__).resolve().parent.parent / "api" / "drinks-pk.json",
+#     )
+# )
 
 
 @dataclass
